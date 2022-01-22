@@ -1,0 +1,76 @@
+/* window */
+body {
+    border-radius: 0;
+}
+.win.normal #tabs-tabbar-container.top, .linux.normal #tabs-tabbar-container.top {
+     padding-top: 5px;
+}
+
+/* SVG disposition */
+button.window-minimize svg {
+    transform: translate(-4px, -3px);
+}
+button.window-close svg, button.window-maximize svg {
+    transform: translate(-4px, 0);
+}
+
+/* Layout of buttons */
+#browser.linux .window-buttongroup button svg {
+    display: none;
+    z-index: 2;
+    fill: black;
+    opacity: 0.75;
+    height: 9px !important;
+}
+#browser.linux .window-buttongroup button {
+    margin: 0 5px 0 3px;
+}
+#browser.linux #titlebar {
+    height: 100%;
+}
+#browser.linux .window-buttongroup {
+    -webkit-app-region: no-drag;
+    height: 100%;
+    margin: 0;
+    padding: 7px 6px 0 6px;
+}
+.stacks-off.fullscreen#browser.linux .window-buttongroup, .tabs-at-edge#browser.linux .window-buttongroup {
+    margin: 0;
+    padding-top: 3px;
+}
+#browser.linux .window-buttongroup button,  #browser.linux .window-buttongroup button:hover {
+    margin-top: 8px 5px 5px 6px;
+    height: 16px;
+    width: 16px;
+    opacity: 0.2;
+    background-color: var(--colorFg);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    transition-duration: 150ms;
+    transition-property: margin, height, border-radius;
+}
+:not(.fullscreen).hasfocus#browser.linux .window-buttongroup.graphite button.window-minimize, .hasfocus#browser.linux .window-buttongroup.graphite button.window-maximize, .hasfocus#browser.linux .window-buttongroup.graphite button.window-close {
+    opacity: 1;
+    background-color: #8e8e93;
+    border-color: #727277;
+}
+:not(.fullscreen).hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-minimize {
+    opacity: 1;
+    background-color: #f7bb3f;
+    border-color: #dc9e34;
+}
+.hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-maximize {
+    opacity: 1;
+    background-color: #34c749;
+    border-color: #1fa42d;
+}
+.hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-close {
+    opacity: 1;
+    background-color: #f8625e;
+    border-color: #de4947;
+}
+
+/* Animation */
+#browser.linux .window-buttongroup button:hover svg {
+    display: block;
+}
