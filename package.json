@@ -1,0 +1,19 @@
+{
+  "name": "chromium-macos-buttons",
+  "version": "1.0.0",
+  "description": "Customize the navigation buttons to give them a macOS button look.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clement-gaudiniere/chromium-macos-buttons.git"
+  },
+  "author": "Clément Gaudinière",
+  "license": "CC BY-NC-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/clement-gaudiniere/chromium-macos-buttons/issues"
+  },
+  "homepage": "https://github.com/clement-gaudiniere/chromium-macos-buttons#readme"
+}
