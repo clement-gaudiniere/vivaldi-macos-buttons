@@ -40,8 +40,8 @@ button.window-close svg, button.window-maximize svg {
 }
 #browser.linux .window-buttongroup button,  #browser.linux .window-buttongroup button:hover {
     margin-top: 8px 5px 5px 6px;
-    height: 16px;
-    width: 16px;
+    height: 15px;
+    width: 15px;
     opacity: 0.2;
     background-color: var(--colorFg);
     border: 1px solid rgba(0, 0, 0, 0.15);
