@@ -1,4 +1,10 @@
 <p align="center">
+	<img alt="Logo de la librairie" src="https://raw.githubusercontent.com/clement-gaudiniere/chromium-macos-buttons/828d226ad7b1db743824c7252a1b058793512aae/img/logo.svg" width="200" />
+</p>
+
+
+
+<p align="center">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="cc by-nc-sa 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-525252.svg?labelColor=292929&logo=creative%20commons&style=for-the-badge" /></a>
   <a href="https://github.com/clement-gaudiniere/chromium-macos-buttons/issues"><img alt="Issues" src="https://img.shields.io/github/issues/clement-gaudiniere/chromium-macos-buttons?style=for-the-badge" /></a><br>
   <a href="https://github.com/clement-gaudiniere/chromium-macos-buttons/releases/"><img alt="Releases" src="https://img.shields.io/github/v/release/clement-gaudiniere/chromium-macos-buttons?labelColor=292929&logoColor=white&logo=DocuSign&style=for-the-badge" /></a>
