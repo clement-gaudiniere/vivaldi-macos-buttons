@@ -21,7 +21,24 @@ This project allows Linux and Windows users to customize their vivaldi interface
 	<img alt="Logo de la librairie" src="https://raw.githubusercontent.com/clement-gaudiniere/vivaldi-macos-buttons/main/img/screen.png" />
 </p>
 
+### How to download it ?
+
+You can download these style sheets in different ways:
+- via the library-cookie-consent <a href="https://github.com/clement-gaudiniere/vivaldi-macos-buttons/releases">release page</a>. 
+- via NPM : `npm install vivaldi-macos-buttons`
+
+
 ### How to install it ?
+
+<details>
+  <summary><b>Windows</b></summary>
+	<p></p>
+</details>
+
+<details>
+  <summary><b>Linux</b></summary>
+	<p></p>
+</details>
 
 
 ...
