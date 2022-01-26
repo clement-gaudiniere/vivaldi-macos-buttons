@@ -56,18 +56,18 @@ button.window-close svg, button.window-maximize svg {
 }
 :not(.fullscreen).hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-minimize {
     opacity: 1;
-    background-color: #f7bb3f;
-    border-color: #dc9e34;
+    background-color: #f7bb3f !important;
+    border-color: #dc9e34 !important;
 }
 .hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-maximize {
     opacity: 1;
-    background-color: #34c749;
-    border-color: #1fa42d;
+    background-color: #34c749 !important;
+    border-color: #1fa42d !important;
 }
 .hasfocus#browser.linux .window-buttongroup:not(.graphite) button.window-close {
     opacity: 1;
-    background-color: #f8625e;
-    border-color: #de4947;
+    background-color: #f8625e !important;
+    border-color: #de4947 !important;
 }
 
 /* Animation */
